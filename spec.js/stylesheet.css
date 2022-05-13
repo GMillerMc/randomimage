@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: auto;
+    margin-top: 10px;
+    border: 3px solid gold;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em solid white; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 7vw;
+    margin: 0;
+    margin-bottom: 2vh;
+    padding: 10px;
+    
+}
+
+#create {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+input {
+    border-radius: 14%;
+    margin-right: 5vh;
+    font-size: 2vw;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+}
